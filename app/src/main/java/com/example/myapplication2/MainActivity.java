@@ -29,8 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
-
+        System.out.println("hello");
 
         setSupportActionBar(binding.toolbar);
 
